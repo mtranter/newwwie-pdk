@@ -1,0 +1,8 @@
+{
+  "extends": "./../tsconfig.dev.json",
+  "compilerOptions": {
+    "types": ["jest", "node"]
+  },
+  "include": ["./**/*.ts"],
+  "//": "This file is used to tell VSCode which tsconfig file to use for tests. It has been added manually. https://github.com/microsoft/vscode/issues/12463."
+}

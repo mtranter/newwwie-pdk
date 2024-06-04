@@ -1,0 +1,33 @@
+{
+    "folders": [{
+        "name": "admin/web",
+        "path": "packages/adminwebsite"
+    },{
+        "name": "admin/api",
+        "path": "packages/adminapi"
+    },{
+        "name": "public/web",
+        "path": "packages/publicwebsite"
+    },{
+        "name": "public/api",
+        "path": "packages/publicapi"
+    },{
+        "name": "services/types",
+        "path": "packages/types"
+    }{
+        "name": "services/dynamodb",
+        "path": "packages/dynamodb-data-access"
+    },{
+        "name": "services/meetup",
+        "path": "packages/meetupclient",
+    },{
+        "name": "infra",
+        "path": "packages/infra"
+    },{
+        "name": "project-def",
+        "path": "./projenrc"
+    },{
+        "name": "root",
+        "path": "."
+    }]
+}
