@@ -14,13 +14,15 @@
     },{
         "name": "services/types",
         "path": "packages/types"
-    }{
+    },{
         "name": "services/dynamodb",
         "path": "packages/dynamodb-data-access"
-    },{
-        "name": "services/meetup",
-        "path": "packages/meetupclient",
-    },{
+    },
+    // {
+    //     "name": "services/meetup",
+    //     "path": "packages/meetupclient",
+    // },
+    {
         "name": "infra",
         "path": "packages/infra"
     },{

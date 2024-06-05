@@ -1,8 +1,6 @@
 import { Button, Link, SpaceBetween } from "@cloudscape-design/components";
 import Header from "@cloudscape-design/components/header";
-import Pagination from "@cloudscape-design/components/pagination";
 import Table from "@cloudscape-design/components/table";
-import TextFilter from "@cloudscape-design/components/text-filter";
 import {
   SlackInviteRequest,
   useListSlackInviteRequests,
