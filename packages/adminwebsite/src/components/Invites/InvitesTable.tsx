@@ -78,9 +78,6 @@ export default ({ onApproval }: Props) => {
       enableKeyboardNavigation
       loadingText="Loading resources"
       trackBy="id"
-      filter={
-        <TextFilter filteringPlaceholder="Find invites" filteringText="" />
-      }
       header={
         <Header
           actions={
@@ -98,7 +95,6 @@ export default ({ onApproval }: Props) => {
           Slack Invite Requests
         </Header>
       }
-      pagination={<Pagination currentPageIndex={1} pagesCount={2} />}
     />
   ) : (
     <div>No Requests</div>

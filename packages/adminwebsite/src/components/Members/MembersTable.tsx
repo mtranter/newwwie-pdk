@@ -69,10 +69,6 @@ export default (_: Props) => {
       enableKeyboardNavigation
       loadingText="Loading resources"
       trackBy="id"
-      filter={
-        <TextFilter filteringPlaceholder="Find Members" filteringText="" />
-      }
-      pagination={<Pagination currentPageIndex={1} pagesCount={1} />}
       header={<Header>Newwwie Slack Members</Header>}
     />
   ) : (
